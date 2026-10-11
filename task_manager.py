@@ -8,7 +8,7 @@ aver chiuso il programma.
 import json
 from pathlib import Path
 
-FILE_DATI = Path(__file__).parent / "tasks.json"
+FILE_DATI = Path("tasks.json")
 
 
 def carica_attivita():
