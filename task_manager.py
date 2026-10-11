@@ -93,7 +93,7 @@ def main():
         scelta = input("Scegli un'opzione: ").strip()
 
         if scelta == "1":
-            print(">>> HO RICEVUTO 1, attività:", attivita)
+            
             mostra_attivita(attivita)
         elif scelta == "2":
             aggiungi_attivita(attivita)
